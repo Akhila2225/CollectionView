@@ -14,6 +14,8 @@
 		DCA522FE21D2ED670061A981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA522FC21D2ED670061A981 /* LaunchScreen.storyboard */; };
 		DCA5230921D2ED670061A981 /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5230821D2ED670061A981 /* CollectionViewTests.swift */; };
 		DCA5231421D2ED670061A981 /* CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5231321D2ED670061A981 /* CollectionViewUITests.swift */; };
+		DCA5232221D2EF850061A981 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5232121D2EF850061A981 /* DataCollectionViewCell.swift */; };
+		DCA5232421D2FEB20061A981 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5232321D2FEB20061A981 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DCA5230F21D2ED670061A981 /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA5231321D2ED670061A981 /* CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUITests.swift; sourceTree = "<group>"; };
 		DCA5231521D2ED670061A981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA5232121D2EF850061A981 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCA5232321D2FEB20061A981 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				DCA522FA21D2ED670061A981 /* Assets.xcassets */,
 				DCA522FC21D2ED670061A981 /* LaunchScreen.storyboard */,
 				DCA522FF21D2ED670061A981 /* Info.plist */,
+				DCA5232121D2EF850061A981 /* DataCollectionViewCell.swift */,
+				DCA5232321D2FEB20061A981 /* DetailViewController.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCA522F621D2ED650061A981 /* ViewController.swift in Sources */,
+				DCA5232221D2EF850061A981 /* DataCollectionViewCell.swift in Sources */,
 				DCA522F421D2ED650061A981 /* AppDelegate.swift in Sources */,
+				DCA5232421D2FEB20061A981 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
